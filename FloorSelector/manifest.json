@@ -1,0 +1,22 @@
+{
+  "name": "FloorSelector",
+  "label": "Select Floor",
+  "type": "widget",
+  "version": "1.14.0",
+  "exbVersion": "1.14.0",
+  "author": "Don Kang",
+  "description": "Layer filter to selected floor and toggle AMS Vector Tilelayers",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "properties": {
+    "hasConfig": true,
+    "supportMultiInstance": true,
+    "useMapWidgetIds": true,
+    "useDataSources": true
+  },
+  "defaultSize": {
+    "width": 300,
+    "height": 150
+  }
+}
